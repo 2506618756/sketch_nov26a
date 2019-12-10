@@ -21,7 +21,7 @@ void loop() {
     strcpy(news[i],firstnews[i]);
   for( int i=0; i<26; i++,t++ )
     strcpy(news[t],secendnews[i]);
-  char message[100] = "Hello,wrold!";
+  char message[100] = "Hello,wrold!"; 
   for( int i = 0; message[i]!='\0'; i++ )
   {
      if( message[i]<'z' && message[i]<'a' )
